@@ -4,6 +4,7 @@ my-env/
 .env/
 .ignored/
 .vscode/
+
 # Python build artifacts
 *.pyc
 __pycache__/
@@ -11,8 +12,8 @@ __pycache__/
 dist/
 build/
 .pybuild/
-# Debian packaging
-debian/
+dist/
+*.py[cod]
 
 # Virtual environments
 .venv/
@@ -22,3 +23,9 @@ env/
 # Editor & OS junk
 .DS_Store
 *.swp
+
+# Debian packaging
+.pybuild/
+debian/
+*.changes
+*.buildinfo
